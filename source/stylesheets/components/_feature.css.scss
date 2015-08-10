@@ -1,0 +1,17 @@
+.feature {
+  h2 {
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: bold;
+    color: $grey;
+  }
+  p {
+    font-size: 15px;
+    color: $grey-lighter;
+    font-weight: 300;
+  }
+  img {
+    height: 23px;
+    margin-right: 5px;
+  }
+}
