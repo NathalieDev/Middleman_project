@@ -23,3 +23,7 @@ gem 'font-awesome-sass', '~> 4.2.0'
 
 # CSS performance
 gem 'middleman-autoprefixer'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-scrollReveal.js'
+end
