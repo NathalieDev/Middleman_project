@@ -1,4 +1,20 @@
-- name: Some product
-  image: some_product.png
-- name: Other product
-  image: other_product.png
+- name: Martin
+  titre: CEO
+  image: martin.png
+- name: Jean
+  titre: CFO
+  image: jean.png
+- name: Martin
+  titre: CEO
+  image: martin.png
+- name: Jean
+  titre: CFO
+  image: jean.png
+- name: Martin
+  titre: CEO
+  image: martin.png
+- name: Jean
+  titre: CFO
+  image: jean.png
+
+

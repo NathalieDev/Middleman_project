@@ -1,6 +1,17 @@
-<h1>The dream team</h1>
-<ul>
-  <li>Rafael</li>
-  <li>Nathalie</li>
-  <li>Boris</li>
-</ul>
+<div class="contact-hd" style="background-image: ul('images/contact-bg')"></div>
+
+<div class="container text-center padded">
+  <h2 class="contact-title">Our team</h2>
+  <p>Working hard on many projects.</p>
+  <div class="row">
+    <% data.products.each do |product|  %>
+      <div class="col-xs-6 col-sm-6 col-md-4">
+        <div class="team">
+          <%= image_tag product.image %>
+          <h3><%= product.name %></h3>
+          <p><%= product.title %></p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
